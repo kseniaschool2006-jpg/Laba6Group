@@ -6,8 +6,8 @@
         android:title="Велосипед" />
     <item
         android:id="@+id/fragment2"
-        android:icon="@drawable/outline_scooter_24"
-        android:title="Участник 2" />
+        android:icon="@drawable/ic_eiffel"
+        android:title="@string/menu_eiffel" />
     <item
         android:id="@+id/fragment3"
         android:icon="@drawable/outline_electric_bike_24"
