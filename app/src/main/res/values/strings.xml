@@ -3,6 +3,15 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="eiffel_title">Эйфелева башня</string>
+    <string name="louvre_title">Лувр</string>
+    <string name="versailles_title">Версаль</string>
+
     <string name="eiffel_description">Эйфелева башня — железная башня в Париже, построенная в 1889 году инженером Гюставом Эйфелем. Высота — 330 метров. Главный символ Парижа и одна из самых посещаемых достопримечательностей мира.</string>
+    <string name="louvre_description">Лувр — один из крупнейших художественных музеев мира, расположенный в бывшем королевском дворце. Здесь хранится «Мона Лиза» Леонардо да Винчи. Коллекция музея насчитывает более 380 000 экспонатов.</string>
+    <string name="versailles_description">Версальский дворец — бывшая резиденция французских королей. Построен в XVII веке при Людовике XIV. Знаменит своими роскошными залами, зеркальной галереей и огромным парком с фонтанами.</string>
+
+
     <string name="menu_eiffel">Эйфелева башня</string>
+    <string name="button_louvre">Лувр</string>
+    <string name="button_versailles">Версаль</string>
 </resources>

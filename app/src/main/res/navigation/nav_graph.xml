@@ -14,10 +14,26 @@
         android:id="@+id/fragment2"
         android:name="com.example.laba6part2.Fragment2"
         android:label="fragment_2"
-        tools:layout="@layout/fragment_2" />
+        tools:layout="@layout/fragment_2" >
+        <action
+            android:id="@+id/action_fragment2_to_louvreSecondFragment"
+            app:destination="@id/louvreSecondFragment" />
+    </fragment>
     <fragment
         android:id="@+id/fragment3"
         android:name="com.example.laba6part2.Fragment3"
         android:label="fragment_3"
         tools:layout="@layout/fragment_3" />
+    <fragment
+        android:id="@+id/louvreSecondFragment"
+        android:name="com.example.laba6part2.LouvreSecondFragment"
+        android:label="LouvreSecondFragment" >
+        <action
+            android:id="@+id/action_louvreSecondFragment_to_versaliessThirdFragment"
+            app:destination="@id/versaliessThirdFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/versaliessThirdFragment"
+        android:name="com.example.laba6part2.VersaliessThirdFragment"
+        android:label="VersaliessThirdFragment" />
 </navigation>
