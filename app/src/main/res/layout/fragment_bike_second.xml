@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".Fragment2">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/my_scooter" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Аренда самоката"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Стоимость: 200 руб/час"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_to_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Перейти к мотороллеру"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

@@ -9,7 +9,12 @@
         android:id="@+id/fragment1"
         android:name="com.example.laba6part2.Fragment1"
         android:label="fragment_1"
-        tools:layout="@layout/fragment_1" />
+        tools:layout="@layout/fragment_1" >
+        <action
+            android:id="@+id/action_fragment1_to_bikeSecondFragment"
+            app:destination="@id/bikeSecondFragment" />
+
+    </fragment>
     <fragment
         android:id="@+id/fragment2"
         android:name="com.example.laba6part2.Fragment2"
@@ -20,4 +25,17 @@
         android:name="com.example.laba6part2.Fragment3"
         android:label="fragment_3"
         tools:layout="@layout/fragment_3" />
+
+    <fragment
+        android:id="@+id/bikeSecondFragment"
+        android:name="com.example.laba6part2.BikeSecondFragment"
+        android:label="BikeSecondFragment" >
+        <action
+            android:id="@+id/action_bikeSecondFragment_to_bikeThirdFragment"
+            app:destination="@id/bikeThirdFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bikeThirdFragment"
+        android:name="com.example.laba6part2.BikeThirdFragment"
+        android:label="BikeThirdFragment" />
 </navigation>
