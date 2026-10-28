@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Версаль"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/versailles2"
+        android:scaleType="centerCrop"
+        android:contentDescription="Версаль" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Верса́ль — дворцово-парковый ансамбль во Франции, бывшая резиденция французских королей в городе Версаль, ныне являющемся пригородом Парижа; центр туризма мирового значения."
+        android:textSize="16sp"
+        android:textAlignment="center" />
+
+</LinearLayout>

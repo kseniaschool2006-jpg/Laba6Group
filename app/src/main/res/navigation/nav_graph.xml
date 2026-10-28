@@ -19,5 +19,24 @@
         android:id="@+id/fragment3"
         android:name="com.example.laba6part2.Fragment3"
         android:label="fragment_3"
-        tools:layout="@layout/fragment_3" />
+        tools:layout="@layout/fragment_3" >
+        <action
+            android:id="@+id/action_fragment3_to_fragment_eiffel_p3"
+            app:destination="@id/fragment_eiffel_p3" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_eiffel_p3"
+        android:name="com.example.laba6part2.FragmentEiffelP3"
+        android:label="fragment_eiffel_p3"
+        tools:layout="@layout/fragment_eiffel_p3" >
+        <action
+            android:id="@+id/action_fragment_eiffel_p3_to_fragment_versailles_p3"
+            app:destination="@id/fragment_versailles_p3" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_versailles_p3"
+        android:name="com.example.laba6part2.FragmentVersaillesP3"
+        android:label="fragment_versailles_p3"
+        tools:layout="@layout/fragment_versailles_p3" />
+
 </navigation>
