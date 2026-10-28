@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment1"
+        android:icon="@drawable/baseline_pedal_bike_24"
+        android:title="Велосипед" />
+    <item
+        android:id="@+id/fragment2"
+        android:icon="@drawable/outline_scooter_24"
+        android:title="Участник 2" />
+    <item
+        android:id="@+id/fragment3"
+        android:icon="@drawable/outline_electric_bike_24"
+        android:title="Участник 3" />
+</menu>
